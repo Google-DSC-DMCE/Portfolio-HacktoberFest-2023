@@ -1,4 +1,4 @@
-# ImageVoiceEditor-HacktoberFest-2023
+# Portfolio-HacktoberFest-2023
 
 # Hacktoberfest23
 
@@ -41,11 +41,11 @@ A month-long celebration from October 1st - 31st to get people involved in [Open
 - Clone on your local machine
 
 ```terminal
-git clone https://github.com/Google-DSC-DMCE/ImageVoiceEditor-HacktoberFest-2023.git
+git clone https://github.com/Google-DSC-DMCE/Portfolio-HacktoberFest-2023.git
 ```
 - Navigate to project directory.
 ```terminal
-cd ImageVoiceEditor-HacktoberFest-2023
+cd Portfolio-HacktoberFest-2023
 ```
 
 - Create a new Branch
@@ -86,7 +86,7 @@ git push origin my-new-branch
 An easy way to avoid conflicts is to add an 'upstream' for your git repo, as other PR's may be merged while you're working on your branch/fork.   
 
 ```terminal
-git remote add upstream https://github.com/Google-DSC-DMCE/Expense-Tracker-Hacktober2023.git
+git remote add upstream https://github.com/Google-DSC-DMCE/Portfolio-HacktoberFest-2023.git
 ```
 
 You can verify that the new remote has been added by typing
