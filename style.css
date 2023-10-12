@@ -952,10 +952,10 @@ body {
   .blog .blo .imgbox img {
     max-width: 100%;
     height: 210.61px;
-    transition: transform 2s;
+  
   }
   .blog .blo:hover .imgbox img {
-    transform: scale(1.2);
+     
   }
   .blog .blo .details {
     position: absolute;
@@ -963,16 +963,15 @@ body {
     bottom: 0px;
     transform: rotateY(180deg) scaleZ(1);
     overflow: hidden;
-    transition: transform 0.5s;
+   
     background: rgba(255, 90, 124, 0.8);
     opacity: 0.9;
-    transition: 0.7s;
+  
   }
   .blog .blo:hover .details {
     top: 0%;
     width: 100%;
-    transition: 0.4s;
-    transform: rotateY(180deg) scaleZ(1);
+     
   }
   .blog .blo .details .content {
     position: relative;
