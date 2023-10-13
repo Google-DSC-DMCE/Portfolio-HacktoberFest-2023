@@ -1,5 +1,6 @@
 body {
     background: rgb(229, 229, 229);
+    background: #D0E7D2;
     padding: 0px;
     margin: 0px;
     height: auto;
@@ -7,6 +8,7 @@ body {
 
   .header {
     background: rgb(229, 229, 229);
+    background: #618264;
     width: 100%;
     height: 30px;
     float: left;
@@ -23,7 +25,9 @@ body {
   }
   .main1 {
     background-color: rgb(255, 255, 255);
+    background-color: #618264;
     border-bottom-color: rgb(255, 255, 255);
+    border-bottom-color: #618264;
     border-bottom-style: solid;
     border-bottom-width: 20px;
 
@@ -32,16 +36,20 @@ body {
     border-image-source: none;
     border-image-width: 1;
     border-left-color: rgb(255, 255, 255);
+    border-left-color:#618264;
     border-left-style: solid;
     border-left-width: 20px;
     border-right-color: rgb(255, 255, 255);
+    border-right-color: #618264;
     border-right-style: solid;
     border-right-width: 20px;
     border-top-color: rgb(255, 255, 255);
+    border-top-color: #618264;
     border-top-style: solid;
     border-top-width: 20px;
     box-sizing: border-box;
     color: rgb(46, 53, 59);
+    color: #618264;
     cursor: url(http://www.themezaa.com/html/muu/white/images/icon-move-all.png),
       move;
     display: inline-block;
@@ -77,7 +85,9 @@ body {
   }
   .main2 {
     background-color: rgb(255, 255, 255);
+    background-color: #B0D9B1;
     border-bottom-color: rgb(255, 255, 255);
+    border-bottom-color: #618264;
     border-bottom-style: solid;
     border-bottom-width: 20px;
     border-image-repeat: stretch;
@@ -85,12 +95,15 @@ body {
     border-image-source: none;
     border-image-width: 1;
     border-left-color: rgb(255, 255, 255);
+    border-left-color: #618264;
     border-left-style: solid;
     border-left-width: 20px;
     border-right-color: rgb(255, 255, 255);
+    border-right-color: #618264; 
     border-right-style: solid;
     border-right-width: 20px;
     border-top-color: rgb(255, 255, 255);
+    border-top-color: #618264;
     border-top-style: solid;
     border-top-width: 20px;
     box-sizing: border-box;
@@ -129,7 +142,9 @@ body {
   }
   .main3 {
     background-color: rgb(255, 255, 255);
+    background-color: #B0D9B1;
     border-bottom-color: rgb(255, 255, 255);
+    border-bottom-color: #618264;
     border-bottom-style: solid;
     border-bottom-width: 20px;
     border-image-repeat: stretch;
@@ -137,12 +152,15 @@ body {
     border-image-source: none;
     border-image-width: 1;
     border-left-color: rgb(255, 255, 255);
+    border-left-color: #618264;
     border-left-style: solid;
     border-left-width: 20px;
     border-right-color: rgb(255, 255, 255);
+    border-right-color: #618264;
     border-right-style: solid;
     border-right-width: 20px;
     border-top-color: rgb(255, 255, 255);
+    border-top-color: #618264;
     border-top-style: solid;
     border-top-width: 20px;
     box-sizing: border-box;
@@ -182,6 +200,7 @@ body {
   }
   .mainimgbg {
     background: #f2f2f2;
+    background: #B0D9B1;
     height: 600px;
     width: 99.5%;
     left: 2px;
@@ -191,6 +210,7 @@ body {
   }
   .mainimgbg1 {
     background: #f2f2f2;
+    background: #B0D9B1;
     height: 600px;
     width: 50%;
     left: 2px;
@@ -200,6 +220,7 @@ body {
   }
   .mainimgbg2 {
     background: rgb(240, 240, 240);
+    background: #B0D9B1;
     height: 300px;
     width: 50%;
     left: 2px;
@@ -253,6 +274,7 @@ body {
   .description {
     box-sizing: border-box;
     color: rgb(255, 72, 110);
+    color: #618264;
     cursor: url(http://www.themezaa.com/html/muu/white/images/icon-move-all.png),
       move;
     position: absolute;
@@ -276,6 +298,7 @@ body {
   .pink-text {
     box-sizing: border-box;
     color: rgb(255, 72, 110);
+    color: #618264;
     cursor: url(http://www.themezaa.com/html/muu/white/images/icon-move-all.png),
       move;
     position: absolute;
@@ -299,6 +322,7 @@ body {
   .pink-text1 {
     box-sizing: border-box;
     color: rgb(255, 72, 110);
+    color: #618264;
     cursor: url(http://www.themezaa.com/html/muu/white/images/icon-move-all.png),
       move;
     position: absolute;
@@ -358,6 +382,7 @@ body {
   }
   .leftf {
     background-color: rgb(255, 72, 110);
+    background-color: #618264;
     box-sizing: border-box;
     color: rgb(46, 53, 59);
     cursor: url(http://www.themezaa.com/html/muu/white/images/icon-move-tb.png),
@@ -377,6 +402,8 @@ body {
   }
   .leftf1 {
     background-color: rgb(255, 72, 110);
+    background-color: #618264;
+
     box-sizing: border-box;
     color: rgb(46, 53, 59);
     cursor: url(http://www.themezaa.com/html/muu/white/images/icon-move-tb.png),
@@ -414,6 +441,7 @@ body {
   }
   .righttop {
     background: #febe34;
+    background: #79AC78;
     height: 110px;
     width: 100%;
   }
@@ -468,6 +496,7 @@ body {
   .download {
     z-index: 6;
     background-color: #ff486e;
+    background-color: #618264;
     color: white;
     font-size: 11px;
     font-family: Biryani, sans-serif;
@@ -500,6 +529,7 @@ body {
   .download1 {
     z-index: 6;
     background-color: #ff486e;
+    background-color: #618264;
     color: white;
     font-size: 14px;
     font-family: Biryani, sans-serif;
@@ -537,11 +567,12 @@ body {
     background-origin: padding-box;
     background-position-x: 0%;
     background-position-y: 0%;
-    background-repeat-x: ;
-    background-repeat-y: ;
+    /* background-repeat-x: ; */
+    /* background-repeat-y: ; */
     background-size: auto;
     box-sizing: border-box;
     color: rgb(255, 255, 255);
+    color: #618264;;
     cursor: url(http://www.themezaa.com/html/muu/white/images/icon-move-tb.png),
       ns-resize;
     display: block;
@@ -628,6 +659,7 @@ body {
   }
   .myinfo1 {
     color: #dbdbdb;
+    color: #618264;
     position: relative;
     z-index: 6;
     transform: rotateZ(-180deg) rotatex(180deg);
@@ -787,6 +819,7 @@ body {
   }
   i {
     color: #ff486e;
+    color: #618264;
     transform: rotatex(180deg);
     height: 60px;
     position: absolute;
@@ -807,6 +840,7 @@ body {
   }
   .overflowimage {
     background: #f2b328;
+    background: #618264;
     height: 115px;
     opacity: 0.7;
 
@@ -940,6 +974,7 @@ body {
     height: 210.61px;
     width: 320.5px;
     background: #ff0;
+    background: #618264;
     margin: 10px;
     box-sizing: border-box;
     display: inline-block;
@@ -965,6 +1000,7 @@ body {
     overflow: hidden;
    
     background: rgba(255, 90, 124, 0.8);
+    background: #FFB000;
     opacity: 0.9;
   
   }
@@ -1000,6 +1036,7 @@ body {
     transform: rotateY(180deg);
     top: 480px;
     background: #ff486e;
+    background: #618264;
     padding: 10px;
     line-height: 7px;
     padding-right: 20px;
