@@ -8,6 +8,20 @@
     <script src="file:///C:/xampp/htdocs/php/php%20practice/Infotechproject/jquery.js"></script>
     <script type="text/javascript"></script>
     <link rel="stylesheet" href="./style.css">
+    <style>
+      .form-control:hover{
+        background-color: grey;
+      }
+      #intersted:hover{
+        background-color: grey;
+
+      }
+      #message:hover{
+        background-color: grey;
+        height: 60px;
+
+      }
+    </style>
     
   </head>
   <body>
@@ -85,7 +99,7 @@
                 </tbody>
               </table>
             </div>
-            <div class="download">DOWNLOAD RESUME</div>
+            <div class="download"><a href="DOWNLOAD RESUME">DOWNLOAD RESUME</a></div>
           </div>
         </div>
       </div>
@@ -116,7 +130,8 @@
             skills
             <div class="border1"></div>
             <div class="information"></div>
-            <div class="download1">view skills</div>
+            <div class="download1"><a href="view skills">view skills</a></div>
+
           </div>
         </div>
       </div>
@@ -281,18 +296,26 @@
           >
             100200300
           </div>
-          <div class="inputform">
-            <input type="text" placeholder="*YOUR NAME" /><br />
-            <input type="email" placeholder="*YOUR EMAIL" /><br />
-            <select>
-              <option WHAT ARE YOU INTERESTED IN?>
-                <option Web Development>
-                <option Mobile Application>
-                <option Graphic Design>
-                <option Other>
+          <form>
+            <div class="inputform">
+                <div class="form-group">
+                  <label for="name"></label>
+                  <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                  <label for="email"></label>
+                  <input type="email" class="form-control" id="email" placeholder="example@gmail.com">
+                </div>
+              </form>
+            <select id="intersted">
+              <option value="WHAT ARE YOU INTERESTED IN?">WHAT ARE YOU INTERESTED IN</option>
+                <option value="Web Development">Web Development</option>
+                <option value="Mobile Application">Mobile Application</option>
+                <option class="Graphic Design">Graphic Design</option>
+                <option value="Other">Other</option>
               </select>
             ><br />
-            <textarea placeholder="YOUR MESSAGE"></textarea>
+            <textarea id="message" placeholder="YOUR MESSAGE"></textarea>
             <div
               class="download"
               style="
