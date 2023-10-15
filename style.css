@@ -1090,25 +1090,28 @@ i {
   .blo {
     position: relative;
     height: 210.61px;
-    width: 320.5px;
-    background: #ff0;
-    background: #618264;
+    width: 320px;
+    background: #79AC78;
     margin: 10px;
     box-sizing: border-box;
     display: inline-block;
   }
   .blog .blo .imgbox {
     position: relative;
-    overflow: hidden;
+    overflow:hidden;
     height: 210.61px;
+    width: 320px;
   }
   .blog .blo .imgbox img {
-    max-width: 100%;
+    width: 320px;
     height: 210.61px;
-  
   }
-  .blog .blo:hover .imgbox img {
-     
+  .blog .blo {
+    transition: transform 0.5s ease; /* You can adjust the duration and easing function as needed */
+}
+  .blog .blo:hover {
+     transform: scale(1.08);
+
   }
   .blog .blo .details {
     position: absolute;
@@ -1116,10 +1119,8 @@ i {
     bottom: 0px;
     transform: rotateY(180deg) scaleZ(1);
     overflow: hidden;
-   
-    background: rgba(255, 90, 124, 0.8);
     background: #FFB000;
-    opacity: 0.9;
+    opacity: 0.8;
   
   }
   .blog .blo:hover .details {
@@ -1133,7 +1134,7 @@ i {
     transform: translateY(-50%);
     text-align: center;
     padding: 1px;
-    color: #fff;
+    color: white;
   }
   .blog .blo .details .content h2 {
     margin: 0px;
@@ -1147,7 +1148,7 @@ i {
     padding: 10px;
     width: 100%;
     background: rgb(46, 53, 59);
-    line-height: 10px;
+    line-height: 1px;
   }
   .view {
     position: absolute;
