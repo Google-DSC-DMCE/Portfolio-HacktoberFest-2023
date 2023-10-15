@@ -1079,6 +1079,7 @@ i {
   .inputform {
     position: relative;
     top: -40px;
+    right:40px;
   }
   .blog {
     position: absolute;
@@ -1179,3 +1180,4 @@ i {
     left: 90%;
     transition: 0.4s;
   }
+
