@@ -17,6 +17,120 @@ body {
     padding: 1.7vh 5vw 1.5vh;
     top: 0;
   }
+  @import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body{
+	font-family: 'Roboto', sans-serif;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+i {
+	margin-right: 10px;
+}/* ---------horizontal-navbar-menu-----------*/
+#navbar-animmenu {
+	background: #618264;
+	float: left;
+	overflow: hidden;
+	position: relative;
+	padding: 10px 0px;
+  width: 100%;
+}
+#navbar-animmenu ul{
+	padding: 0px;
+	margin: 0px;
+  
+}
+
+#navbar-animmenu ul li a i{
+	margin-right: 10px;
+}
+
+#navbar-animmenu li {
+	list-style-type: none;
+	float: left;
+}
+
+#navbar-animmenu ul li a{
+	color: rgb(229, 229, 229);
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 45px;
+    display: block;
+    padding: 0px 20px;
+    transition-duration:0.6s;
+	transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    position: relative;
+}
+
+#navbar-animmenu>ul>li.active>a{
+	color: #fcfcfc;
+	background-color: transparent;
+	transition: all 0.7s;
+}
+
+
+#navbar-animmenu a:not(:only-child):after {
+	content: "\f105";
+	position: absolute;
+	right: 20px;
+	top: 10%;
+	font-size: 14px;
+	font-family: "Font Awesome 5 Free";
+	display: inline-block;
+	padding-right: 3px;
+	vertical-align: middle;
+	font-weight: 900;
+	transition: 0.5s;
+}
+
+#navbar-animmenu .active>a:not(:only-child):after {
+	transform: rotate(90deg);
+}
+.hori-selector{
+	display:inline-block;
+	position:absolute;
+	height: 100%;
+	top: 10px;
+	left: 0px;
+	transition-duration:0.6s;
+	transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+	background-color: #fff;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+.hori-selector .right,
+.hori-selector .left{
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	background-color: #fff;
+	bottom: 10px;
+}
+.hori-selector .right{
+	right: -25px;
+}
+.hori-selector .left{
+	left: -25px;
+}
+.hori-selector .right:before,
+.hori-selector .left:before{
+	content: '';
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #618264;
+}
+.hori-selector .right:before{
+	bottom: 0;
+    right: -25px;
+}
+.hori-selector .left:before{
+	bottom: 0;
+    left: -25px;
+}
   .logo img {
     height: 90px;
     width: auto;
@@ -447,7 +561,7 @@ body {
   }
   .history {
     transform: rotateY(180deg);
-    color: white;
+    color: rgb(255, 255, 255);
     cursor: url(http://www.themezaa.com/html/muu/white/images/icon-move-all.png),
       move;
     font-family: Biryani, sans-serif;
@@ -456,8 +570,8 @@ body {
     font-weight: 900;
     list-style-type: none;
     position: absolute;
-    top: -21px;
-    left: 6%;
+    top: 15px;
+    left: 10%;
     font-size: 65px;
     line-height: 60px;
     z-index: 5;
@@ -833,10 +947,10 @@ body {
   }
   .education {
     position: absolute;
-    top: -160px;
-    height: 670px;
+    top: -100px;
+    height: 650px;
     transform: rotatey(180deg);
-    background: #f2f2f2;
+    background: #fefcfc;
   }
   .overflowimage {
     background: #f2b328;
@@ -870,6 +984,10 @@ body {
     left: 23%;
     top: 2260px;
   }
+  .map-iframe {
+    width: 100%;
+    height: 500px;
+   }
   .webdesign {
     z-index: 9;
     position: absolute;
