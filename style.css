@@ -1179,3 +1179,31 @@ i {
     left: 90%;
     transition: 0.4s;
   }
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 12px 0px;
+    margin-top: 220px;
+  }
+  
+  .last{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  footer ul li {
+    margin: 0 10px;
+  }
+  
+  footer ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  footer ul a:hover {
+    color: #ff486e;
+    font-weight: bolder;
+  }
