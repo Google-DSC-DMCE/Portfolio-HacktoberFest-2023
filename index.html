@@ -252,7 +252,7 @@
 
     <div class="main3" style="top: 200px" id="contacts">
       <div class="right">
-        <form class="form">
+        <form class="form" name="contact-form">
           <i
             class="fa fa-map-marker"
             aria-hidden="true"
@@ -313,19 +313,19 @@
             100200300
           </div>
           <div class="inputform">
-            <input type="text" placeholder="*YOUR NAME" /><br />
-            <input type="email" placeholder="*YOUR EMAIL" /><br />
-            <select>
-              <option WHAT ARE YOU INTERESTED IN?>
-                <option Web Development>
-                <option Mobile Application>
-                <option Graphic Design>
-                <option Other>
-              </select>
-            ><br />
-            <textarea placeholder="YOUR MESSAGE"></textarea>
-            <div
-              class="download"
+            <form name="contact-form" class="form">
+            <input type="text" name="name" placeholder="*YOUR NAME" required /><br />
+            <input type="email" name="email" id="email" placeholder="*YOUR EMAIL" required /><br />
+            <select name="interest">
+              <option value="">WHAT ARE YOU INTERESTED IN?</option>
+              <option value="Web Development">Web Development</option>
+              <option value="Mobile Application">Mobile Application</option>
+              <option value="Graphic Design">Graphic Design</option>
+              <option value="Other">Other</option>
+            </select><br />
+            <textarea name="message" placeholder="YOUR MESSAGE"></textarea>
+              <div
+              class="download" onclick="validateForm()"
               style="
                 position: absolute;
                 left: 821px;
@@ -342,6 +342,7 @@
             >
               Submit
             </div>
+            <div id="error-message" style="color: red;"></div>
           </div>
         </form>
       </div>
@@ -366,6 +367,31 @@
         </ul>
       </div>
     </footer>
+    <script>
+  function validateForm() {
+  const form = document.forms["contact-form"];
+  const name = form.elements["name"].value;
+  const email = form.elements["email"].value;
+  const interest = form.elements["interest"].value;
 
+  if (name.trim() === "" || email.trim() === "" || interest === "") {
+    form.elements["name"].placeholder = "*YOUR NAME (Please enter details)";
+    form.elements["email"].placeholder = "*YOUR EMAIL (Please enter details)";
+    form.elements["interest"].selectedIndex = 0; 
+    form.elements["message"].placeholder = "YOUR MESSAGE (Please enter details)";
+  } else if (!isValidEmail(email)) {
+    document.getElementById("error-message").textContent =
+      "Invalid email format.";
+  } else {
+    document.getElementById("error-message").textContent = "";
+    form.submit();
+  }
+}
+
+function isValidEmail(email) {
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  return emailRegex.test(email);
+}
+  </script>
   </body>
 </html>
