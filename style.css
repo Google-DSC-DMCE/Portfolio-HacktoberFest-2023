@@ -6,7 +6,7 @@ body {
     height: auto;
   }
   ::placeholder {
-    color: red;
+    color: gray;
   }
   .header {
     background: rgb(229, 229, 229);

@@ -374,14 +374,15 @@
   const email = form.elements["email"].value;
   const interest = form.elements["interest"].value;
 
+
   if (name.trim() === "" || email.trim() === "" || interest === "") {
     form.elements["name"].placeholder = "*YOUR NAME (Please enter details)";
     form.elements["email"].placeholder = "*YOUR EMAIL (Please enter details)";
     form.elements["interest"].selectedIndex = 0; 
     form.elements["message"].placeholder = "YOUR MESSAGE (Please enter details)";
   } else if (!isValidEmail(email)) {
-    document.getElementById("error-message").textContent =
-      "Invalid email format.";
+    form.elements["email"].placeholder = "Invalid email format ";
+
   } else {
     document.getElementById("error-message").textContent = "";
     form.submit();
