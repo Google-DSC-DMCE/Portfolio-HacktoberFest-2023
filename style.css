@@ -337,9 +337,11 @@ i {
   .mainimgbg2 {
     background: rgb(240, 240, 240);
     background: #B0D9B1;
-    height: 300px;
-    width: 50%;
+    height: 650px;
+    width: 45%;
     left: 2px;
+    object-fit: contain;
+    transform: scaleX(-1);
     padding-top: 10px;
     z-index: 1;
     position: absolute;
@@ -469,9 +471,10 @@ i {
   }
   .img2 {
     transform: rotateY(180deg);
-    margin-top: -120px;
+    margin-top: -110px;
     position: absolute;
     filter: saturate(0%);
+    opacity: 60%;
     height: 640px;
   }
   .right {
@@ -595,6 +598,7 @@ i {
     left: -90%;
     font-weight: lighter;
     font-family: Biryani, sans-serif;
+    color: #fcfcfc;
   }
   table {
     font-size: 19px;
@@ -608,6 +612,8 @@ i {
     padding-left: 20px;
     font-weight: lighter;
     opacity: 0.8;
+    font-weight: bolder;
+    font-size:x-large;
   }
   .download {
     z-index: 6;
@@ -941,10 +947,12 @@ i {
     position: absolute;
     left: 83.5%;
   }
-  .rightimg {
+  .rightimg img{
     position: absolute;
     top: -10%;
-    height: 750px;
+    height: 150px;
+    width: 200px;
+    object-fit: fill;
     z-index: 7;
   }
   .education {
